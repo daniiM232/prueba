@@ -1,0 +1,59 @@
+*{/*para todo el archivo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{/*ponerlo siempre*/
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px; /*interlineado*/
+    color: #333;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #F4F4F4;
+}
+.ancho{
+    width: 1200px;
+    margin: auto;
+    border: 1px red solid;
+}
+.cont1{
+    padding: 30px;
+}
+.cont1 form{
+    margin-right: 850px;
+    text-align: right;
+}
+#enviar{
+    padding: 7px 30px;
+    color: white;
+    background-color: #ff4e00;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 0px;
+    width: 170px;
+}
+.credencial{
+    border: 1px black solid;
+    width: 500px;
+    margin: auto;;
+}
+.credencial td{
+    border: 1px black solid;
+}
+.nombrecredencial{
+    color: #c90;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.matriculacredencial{
+    color: #7e121288;
+    font-weight: bold;
+    font-style: italic;
+}
+.carreracredencial{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+  
